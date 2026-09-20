@@ -115,7 +115,7 @@ class GestureInterpreter:
             if drawer.drawing:
                 drawer.end_draw()
             result = "Stop"
-
+#-
         elif gesture == "point":
             if self.prev_x is not None and self.click_cooldown == 0:
                 dx = x - self.prev_x
